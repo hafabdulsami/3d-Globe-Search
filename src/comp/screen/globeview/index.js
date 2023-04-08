@@ -13,7 +13,7 @@ import { connect } from "react-redux";
 
 import lodash from "lodash";
 
-import Actions from "../../redux/action";
+import Actions from "../../../redux/action";
 import Constants from "../../utils/Constants";
 
 import {

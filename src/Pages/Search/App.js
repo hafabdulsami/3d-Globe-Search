@@ -1,17 +1,17 @@
-import "./App.css";
+
 
 import React, { useEffect, useState, createRef } from "react";
 
 import { Text, Flex, CircularProgress, useColorMode } from "@chakra-ui/react";
 
-import MasterContainer from "./comp/screen/mastercontainer";
-import Constants from "./comp/utils";
-import Actions from "./comp/redux/action";
+import MasterContainer from "../../comp/screen/mastercontainer";
+//import Constants from "./comp/utils";
+import Actions from "../../redux/action";
 
 import { connect } from "react-redux";
 
 import lodash from "lodash";
-import AppManager from "./comp/utils/AppManager";
+//import AppManager from "./comp/utils/AppManager";
 
 const App = (props) => {
 	/*  Life-cycles Methods */
@@ -96,6 +96,7 @@ const App = (props) => {
 	return (
 		<>
 			<MasterContainer />
+			
 			{isMasterAppLoading && !lodash.isNil(colorMode) && renderLoader()}
 		</>
 	);

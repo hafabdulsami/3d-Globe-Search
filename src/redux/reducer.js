@@ -5,7 +5,7 @@ import {
 } from "./action-types";
 
 import { REHYDRATE } from "redux-persist/src/constants";
-import Constants from "../utils/Constants";
+import Constants from "../comp/utils/Constants";
 
 const {
 	MasterDrawerMenuType,

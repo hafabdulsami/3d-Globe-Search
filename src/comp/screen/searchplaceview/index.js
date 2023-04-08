@@ -34,7 +34,7 @@ import PlaceInfoView from "./placeInfo";
 import MasterGlobeView from "../globeview";
 import NavBarView from "../navbar";
 
-import Actions from "../../redux/action";
+import Actions from "../../../redux/action";
 import Constants from "../../utils/Constants";
 import AppManager from "../../utils/AppManager";
 
@@ -735,9 +735,7 @@ const SearchPlaceView = (props) => {
 						>
 							{renderSearchResultList()}
 						</Box>
-						<Flex>
-							{/*this flex box will be use to display the avatar and data of user whihc we search*/}
-						</Flex>
+						
 					</Flex>
 					<Flex
 						flex={2}

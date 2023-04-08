@@ -26,7 +26,7 @@ import { connect } from "react-redux";
 import SettingsView from "../settings";
 import AboutApp from "../aboutapp";
 
-import Actions from "../../redux/action";
+import Actions from "../../../redux/action";
 import Constants from "../../utils/Constants";
 import AppManager from "../../utils/AppManager";
 

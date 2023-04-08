@@ -4,7 +4,7 @@ import { useDisclosure } from "@chakra-ui/react";
 import { connect } from "react-redux";
 
 import AppManager from "../../utils/AppManager";
-import Actions from "../../redux/action";
+import Actions from "../../../redux/action";
 import Constants from "../../utils/Constants";
 
 import SearchPlaceView from "../searchplaceview";

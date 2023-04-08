@@ -48,7 +48,7 @@ import {
 
 import CoordinateInputView from "./coordinateInput";
 
-import Actions from "../../redux/action";
+import Actions from "../../../redux/action";
 import Constants from "../../utils/Constants";
 import AppManager from "../../utils/AppManager";
 
