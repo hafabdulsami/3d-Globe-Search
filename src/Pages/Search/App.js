@@ -68,7 +68,7 @@ const App = (props) => {
 					backdropBrightness={"80%"}
 					borderWidth={1}
 					backgroundColor={
-						colorMode === "dark" ? "gray.700" : "gray.300"
+						colorMode === "#fff4e2"
 					}
 					borderColor={colorMode === "dark" ? "gray.700" : "gray.400"}
 					borderRadius={12}

@@ -23,7 +23,7 @@ const MasterDrawerMenuType = {
 const MasterDrawerMenuConfig = {
 	[MasterDrawerMenuType.Search]: {
 		type: MasterDrawerMenuType.Search,
-		title: "3D Globe Search",
+		title: "3D Globe Searchh",
 		mainTitle: "3D Globe Search",
 		icon: FaGlobeAfrica,
 		route: "/",
